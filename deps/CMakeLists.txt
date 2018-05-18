@@ -40,7 +40,7 @@ if(NOT TARGET yara)
 
 	ExternalProject_Add(yara
 		PREFIX "yara"
-		URL https://github.com/avast-tl/yara/archive/v1.0-retdec.zip
+		URL https://github.com/faku99/yara/archive/v1.0.1-faku99.zip
 		DOWNLOAD_NAME yara-v1.0-retdec.zip
 		BUILD_IN_SOURCE 1
 		CONFIGURE_COMMAND ""
